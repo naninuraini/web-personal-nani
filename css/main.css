@@ -76,6 +76,18 @@ nav ul {
 	gap: 24px;
 }
 
+b {
+	color: var(--primary);
+	text-decoration: none;
+}
+.container {
+	margin-left: 6%;
+	margin-right: 6%;
+}
+.col-img img {
+	border-radius: 12px;
+	margin-bottom: 12px;
+}
 section,
 footer {
 	padding: 64px 256px;
@@ -309,6 +321,18 @@ footer h1 a {
 
 #service-3 .service-img {
 	background-image: url(../assets/service-3.jpg);
+	filter: brightness(0.5);
+}
+#service-4 .service-img {
+	background-image: url(../assets/html.png);
+}
+
+#service-5 .service-img {
+	background-image: url(../assets/css.png);
+}
+
+#service-6 .service-img {
+	background-image: url(../assets/php.jpg);
 	filter: brightness(0.5);
 }
 
